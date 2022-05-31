@@ -1,7 +1,5 @@
 import pdfrw
 
-
-
 ANNOT_KEY = '/Annots'
 ANNOT_FIELD_KEY = '/T'
 ANNOT_VAL_KEY = '/V'
@@ -35,13 +33,13 @@ def fill_pdf(input_pdf_path, output_pdf_path, data_dict):
 #all the information that goes in the PDF
 
 if __name__ == '__main__':
-    pdf_template = "C:/Users/aaron/Documents/ATI/Concussion Project/Aether/form_experiment.pdf"
-    pdf_output = "C:/Users/aaron/Documents/ATI/Concussion Project/Aether/form_experiment_output.pdf"
+    pdf_template = "template.pdf"
+    pdf_output = "output.pdf"
     
 
     data_dict = {
         'Name': 'Aaron Wu', 
-        'email': 'aaronwu@ucsb.edu',
+        'email': 'email@ucsb.edu',
         'Sport': 'ATI',
         'Check Box 1': True,
         }
