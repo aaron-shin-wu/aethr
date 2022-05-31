@@ -35,14 +35,14 @@ def fill_pdf(input_pdf_path, output_pdf_path, data_dict):
 #all the information that goes in the PDF
 
 if __name__ == '__main__':
-    pdf_template = "C:/Users/aaron/Documents/ATI/Concussion Project/Aether/form_experiment.pdf"
-    pdf_output = "C:/Users/aaron/Documents/ATI/Concussion Project/Aether/form_experiment_output.pdf"
+    pdf_template = "template.pdf" #insert pathname for template file here
+    pdf_output = "output.pdf" #insert pathname for output file here
     
 
     data_dict = {
         'Name': 'Aaron Wu', 
         'email': 'email@ucsb.edu',
-        'Sport': 'ATI',
+        'Sport': 'Basketball',
         'Check Box 1': True,
         }
 
