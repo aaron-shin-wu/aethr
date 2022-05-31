@@ -1,7 +1,5 @@
 import pdfrw
 
-
-
 ANNOT_KEY = '/Annots'
 ANNOT_FIELD_KEY = '/T'
 ANNOT_VAL_KEY = '/V'
@@ -47,4 +45,3 @@ if __name__ == '__main__':
         }
 
     fill_pdf(pdf_template, pdf_output, data_dict)
-#############################
