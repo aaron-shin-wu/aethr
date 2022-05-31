@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     data_dict = {
         'Name': 'Aaron Wu', 
-        'email': 'aaronwu@ucsb.edu',
+        'email': 'email@ucsb.edu',
         'Sport': 'ATI',
         'Check Box 1': True,
         }
